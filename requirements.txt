@@ -1,0 +1,22 @@
+# ====== Automação RPA Inteligente – CND Dívida Ativa ======
+
+# ---- Core ----
+python-dotenv==1.0.1
+requests==2.32.3
+pdfplumber==0.11.4
+transformers==4.44.2
+torch==2.4.1
+
+# ---- Selenium e WebDriver ----
+selenium==4.25.0
+webdriver-manager==4.0.2
+
+# ---- IA e Lang Ecosystem ----
+openai==1.50.2
+langsmith==0.1.116
+langgraph==0.6.8
+langchain-core==0.3.13
+
+# ---- Tipagem e suporte extra ----
+pydantic==2.9.2
+xxhash==3.5.0
