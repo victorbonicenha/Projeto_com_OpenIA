@@ -1,4 +1,4 @@
-from Divida_Ativa import cnd_divida_ativa
+from CND_IA import cnd_divida_ativa
 from config_IA import IADividaAtiva
 from langgraph.graph import StateGraph, START, END
 from langgraph.graph.message import add_messages
