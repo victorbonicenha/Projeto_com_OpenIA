@@ -1,0 +1,27 @@
+# Credenciais
+.env
+
+# Ambiente virtual
+.venv/
+venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# PDFs e arquivos temporários
+*.pdf
+CND - Divida Ativa/
+
+# LangSmith / LangChain cache
+.langchain/
+langchain.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
