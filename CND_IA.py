@@ -16,20 +16,18 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from config_IA import IADividaAtiva
 from langsmith import traceable
-import os
 
 load_dotenv()
 
 CNPJ_BASE = os.getenv("CNPJ_BASE")
 API_KEY = os.getenv("CHAVE_API")
 
-
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGSMITH_API_KEY")
 os.environ["LANGCHAIN_PROJECT"] = "CND_Divida_Ativa"
 
 data_hoje = datetime.now().strftime('%d-%m-%Y')
-base_path = r"C:\Users\vbonicenha\Desktop\ApiLira"
+base_path = os.getenv("BASE_PATH")
 pasta_downloads = os.path.join(os.path.expanduser("~"), "Downloads")
 
 meses = {
